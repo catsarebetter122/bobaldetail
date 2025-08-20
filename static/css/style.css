@@ -18,6 +18,24 @@
     opacity: 1 !important; /* ensure full opacity for readability */
 }
 
+/* Rating Stars Enhancement */
+.rating-stars { 
+    color: #ffd700; 
+    font-size: 2rem; 
+    text-shadow: 0 2px 4px rgba(0,0,0,0.6); 
+}
+
+.rating-container, .review-card {
+    background: rgba(0,0,0,0.5);
+    border: 1px solid rgba(255,255,255,0.2);
+    border-radius: 15px; 
+    padding: 1rem;
+}
+
+.review-card .text-muted { 
+    opacity: 1 !important; /* ensure full opacity for readability */
+}
+
 /* Body padding for fixed navbar */
 body {
     padding-top: 76px;
