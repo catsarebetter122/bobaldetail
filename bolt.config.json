@@ -1,5 +1,5 @@
 {
-  "build": { "command": "pip install -r requirements.txt" },
+  "build": { "command": "python -m pip install -r requirements.txt" },
   "start": { "command": "python main.py" },
   "preview": { "port": 5000 }
 }
